@@ -1,4 +1,4 @@
-const Plane = require('./Plane');
+const PLANE = require('./Plane');
 
 class MilitaryPlane extends Plane {
 
@@ -8,9 +8,10 @@ class MilitaryPlane extends Plane {
 
     }
 
-    getMilitaryType() {
+    get MilitaryType() {
         return this.militaryType;
     }
+
 }
 
 module.exports = MilitaryPlane;
